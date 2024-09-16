@@ -7,8 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
  
-      - name: Create directory for Python tool cache
-        run: sudo mkdir -p /Users/runner/hostedtoolcache
+      
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
